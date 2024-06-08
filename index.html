@@ -1,14 +1,27 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React</title>
-    <script src="https://kit.fontawesome.com/8764f36d18.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/8764f36d18.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
   <body>
     <div id="root"></div>
+    <a href="#">
+      <div class="fixed bottom-4 right-4 bg-red-500 p-5 rounded-full">
+        <i class="fa-solid fa-house text-white text-xl"></i>
+      </div>
+    </a>
     <script type="module" src="/src/main.jsx"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
     <!-- <script src="../path/to/flowbite/dist/flowbite.min.js"></script> -->
