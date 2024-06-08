@@ -3,7 +3,7 @@ import HeroImg from '../../public/assets/hero.png';
 function HeroSection() {
   return (
     <>
-      <section
+      <section id='#'
         className="bg-white dark:bg-gray-900 md:pt-10 "
         style={{ height: "90vh" }}
       >
