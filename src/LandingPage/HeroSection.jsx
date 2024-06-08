@@ -1,4 +1,5 @@
-import HeroImg from '../../src/assets/hero.png'
+import React from 'react';
+import HeroImg from '../../public/assets/hero.png';
 function HeroSection() {
   return (
     <>
@@ -35,7 +36,7 @@ function HeroSection() {
           </div>
           {/* gambar */}
           <div className="order:1 md:order-1 md:w-8/12 lg:w-full w-10/12  lg:mt-0 lg:col-span-5 lg:flex">
-            <img src="src/assets/hero.png" alt="Hero Image" />
+            <img src= {HeroImg} alt="Hero Image" />
           </div>
         </div>
       </section>

@@ -1,10 +1,8 @@
+import AboutImage from "../../src/assets/about.png";
 const AboutSection = () => {
   return (
     <>
-      <section
-        className="bg-white dark:bg-gray-900 md:pt-20 pt-10 "
-       
-      >
+      <section className="bg-white dark:bg-gray-900 md:pt-20 pt-10 ">
         <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div className="mr-auto lg:col-span-7 md:order-2">
             <div className="text-red-600 font-semibold">ABOUT US</div>
@@ -102,7 +100,11 @@ const AboutSection = () => {
             <hr />
           </div>
           <div className="hidden lg:col-span-5 lg:flex md:order-1">
-            <img src="src/assets/about.png" alt="Hero Image" />
+            <img
+              src={AboutImage}
+              alt="Hero Image"
+              class="object-contain h-full w-full"
+            />
           </div>
         </div>
       </section>
