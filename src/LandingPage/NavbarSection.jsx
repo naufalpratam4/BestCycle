@@ -1,3 +1,5 @@
+import React from "react";
+
 const NavbarSection = () => {
   return (
     <nav className="bg-white dark:bg-gray-900  w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
