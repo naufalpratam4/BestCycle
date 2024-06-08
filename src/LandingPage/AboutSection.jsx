@@ -1,4 +1,4 @@
-import AboutImage from '../../src/assets/about.png'
+import AboutImage from "../../src/assets/about.png";
 const AboutSection = () => {
   return (
     <>
@@ -100,7 +100,10 @@ const AboutSection = () => {
             <hr />
           </div>
           <div className="hidden lg:col-span-5 lg:flex md:order-1">
-          <img src={AboutImage} alt="Hero Image" class="object-contain h-full w-full"
+            <img
+              src={AboutImage}
+              alt="Hero Image"
+              class="object-contain h-full w-full"
             />
           </div>
         </div>
