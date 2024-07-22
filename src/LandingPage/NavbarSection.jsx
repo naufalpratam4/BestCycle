@@ -13,15 +13,17 @@ const NavbarSection = () => {
           </span>
         </a>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-        
-          <a target="_blank" href="https://wa.me/6285799857403?text=Halo,%20saya%20ingin%20bertanya%20tentang%20produk%20dan%20jasa%20yang%20di%20berikan%20Best%20Cycle%20."><button
+          <a
+            target="_blank"
+            href="https://wa.me/6285799857403?text=Halo,%20saya%20ingin%20bertanya%20tentang%20produk%20dan%20jasa%20yang%20di%20berikan%20Best%20Cycle%20."
+          >
+            <button
               type="button"
               className="text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800"
             >
               Contact Me
             </button>
-            </a>
-
+          </a>
 
           <button
             data-collapse-toggle="navbar-sticky"
@@ -87,7 +89,14 @@ const NavbarSection = () => {
               </a>
             </li>
             <li>
-              
+              <a
+                href="#udangKeju"
+                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-700 md:p-0 md:dark:hover:text-red-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              >
+                Udang Keju
+              </a>
+            </li>
+            <li>
               <a
                 href="#"
                 className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-700 md:p-0 md:dark:hover:text-red-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"

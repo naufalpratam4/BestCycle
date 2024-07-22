@@ -2,7 +2,10 @@ import AboutImage from "../../src/assets/about.png";
 const AboutSection = () => {
   return (
     <>
-      <section className="bg-white dark:bg-gray-900  scroll-page md:mt-32" id="about">
+      <section
+        className="bg-white dark:bg-gray-900  scroll-page md:mt-32"
+        id="about"
+      >
         <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div className="mr-auto lg:col-span-7 md:order-2">
             <div className="text-red-600 font-semibold">ABOUT US</div>
@@ -19,82 +22,85 @@ const AboutSection = () => {
             <hr />
 
             <div className="pt-5 mb-3">
-              <div className="flex mb-2">
-                <div>
-                  <i class="fa-solid fa-motorcycle bg-red-500 text-red-200 rounded-full p-3 font-bold"></i>
-                </div>
-                <div className=" ms-3">
-                  <div className="font-bold text-xl">Antar Jemput</div>
+              <a href="#anjem" className="">
+                <div className="flex mb-2 hover:bg-gray-100 md:py-2 hover:rounded-md  ">
                   <div>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Sed quam omnis tempora soluta vero a molestias est
-                    laudantium, voluptatem deserunt laboriosam culpa qui? Fugiat
-                    quibusdam maxime, quidem est animi esse.
+                    <i class="fa-solid fa-motorcycle bg-red-500 text-red-200 rounded-full p-3 font-bold"></i>
                   </div>
-                  <div className="flex items-center">
+                  <div className=" ms-3">
+                    <div className="font-bold text-xl">Antar Jemput</div>
                     <div>
-                      {" "}
-                      <a href="" className="text-red-500">
-                        Pesan Sekarang
-                      </a>
+                      Jasa Antar Jemput BestCycle hadir untuk membantu Anda!
+                      Kami menyediakan layanan antar jemput untuk berbagai
+                      kebutuhan
                     </div>
-                    <div>
-                      <i class="fa-solid text-red-500 fa-angle-right"></i>
+                    <div className="flex items-center">
+                      <div>
+                        {" "}
+                        <a href="#anjem" className="text-red-500">
+                          Lihat Lebih Lengkap
+                        </a>
+                      </div>
+                      <div>
+                        <i class="fa-solid text-red-500 fa-angle-right"></i>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              </a>
+
               {/* Jastip */}
-              <div className="flex mb-3">
-                <div>
-                  <i class="fa-solid fa-bowl-food bg-blue-500 text-blue-200 rounded-full p-3 font-bold"></i>
-                </div>
-                <div className=" ms-3">
-                  <div className="font-bold text-xl">Jasa Titip</div>
+              <a href="#jastip">
+                <div className="flex mb-3 hover:bg-gray-100 md:py-2 hover:rounded-md">
                   <div>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Sed quam omnis tempora soluta vero a molestias est
-                    laudantium, voluptatem deserunt laboriosam culpa qui? Fugiat
-                    quibusdam maxime, quidem est animi esse.
+                    <i class="fa-solid fa-bowl-food bg-blue-500 text-blue-200 rounded-full p-3 font-bold"></i>
                   </div>
-                  <div className="flex items-center">
+                  <div className=" ms-3">
+                    <div className="font-bold text-xl">Jasa Titip</div>
                     <div>
-                      <a href="" className="text-blue-500">
-                        Pesan Sekarang
-                      </a>
+                      Mie Gacoan lagi nge-hits banget ya? Tapi kamu lagi sibuk
+                      dan gak sempat ke outletnya? Tenang aja, ada Jasa Titip
+                      Mie Gacoan yang siap mengantarkan kelezatan pedasnya
+                      sampai ke rumah kamu!
                     </div>
-                    <div>
-                      <i class="fa-solid text-blue-500 fa-angle-right"></i>
+                    <div className="flex items-center">
+                      <div>
+                        <a href="#jastip" className="text-blue-500">
+                          Lihat Lebih Lengkap
+                        </a>
+                      </div>
+                      <div>
+                        <i class="fa-solid text-blue-500 fa-angle-right"></i>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              </a>
 
               {/* Udang Keju */}
-              <div className="flex ">
+              <a href="#udangKeju">
+                  <div className="flex hover:bg-gray-100 hover:rounded-md md:py-2">
                 <div>
                   <i class="fa-solid fa-cheese bg-yellow-500 text-yellow-200 rounded-full p-3 font-bold"></i>
                 </div>
                 <div className=" ms-3">
                   <div className="font-bold text-xl">Udang Keju</div>
                   <div>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Sed quam omnis tempora soluta vero a molestias est
-                    laudantium, voluptatem deserunt laboriosam culpa qui? Fugiat
-                    quibusdam maxime, quidem est animi esse.
+                    Cemilan gurih dan renyah dengan rasa keju yang lezat? Udang
+                    Keju solusinya! Dibuat dari udang segar
+                    pilihan dan keju berkualitas, camilan ini siap memanjakan
+                    lidah Anda.
                   </div>
-                  <div className="flex items-center">
+                  <div className="flex items-center text-yellow-500">
+                    <a href="#udangKeju">Lihat Lebih Lengkap</a>
                     <div>
-                      <a href="" className="text-yellow-500">
-                        Pesan Sekarang
-                      </a>
-                    </div>
-                    <div>
-                      <i class="fa-solid text-yellow-500 fa-angle-right"></i>
+                      <i class="fa-solid  fa-angle-right"></i>
                     </div>
                   </div>
                 </div>
               </div>
+              </a>
+            
             </div>
 
             <hr />
