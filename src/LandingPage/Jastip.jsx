@@ -1,12 +1,12 @@
 import React from "react";
-import HeroImg from "../../src/assets/hero.png";
-function HeroSection() {
+import GacoanImg from "../../src/assets/GACOAN.png";
+
+function Jastip() {
   return (
     <>
       <section
-        id="#"
-        className="bg-white dark:bg-gray-900 md:pt-10 "
-        style={{ height: "90vh" }}
+        id="jastip"
+        className="bg-white dark:bg-gray-900  min-h-screen"
       >
         <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div className="mr-auto place-self-center lg:col-span-7 order-2 md:order-2 order:2">
@@ -25,7 +25,7 @@ function HeroSection() {
             </p>
 
             <a
-              href="https://wa.me/6288226872393"
+              href="#"
               className="bg-red-600 inline-flex items-center justify-center md:px-5 md:py-3 px-3 py-2 text-base font-medium text-center text-white border border-gray-300 rounded-lg hover:bg-red-500 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
             >
               <div className="flex items-center justify-center">
@@ -36,7 +36,7 @@ function HeroSection() {
           </div>
           {/* gambar */}
           <div className="order:1 md:order-1 lg:order-2 md:w-8/12 lg:w-full w-10/12  lg:mt-0 lg:col-span-5 lg:flex">
-            <img src={HeroImg} alt="Hero Image" />
+            <img src={GacoanImg} alt="Hero Image" style={{ height: "90%", borderRadius: '5%' }} />
           </div>
         </div>
       </section>
@@ -44,4 +44,4 @@ function HeroSection() {
   );
 }
 
-export default HeroSection;
+export default Jastip;
